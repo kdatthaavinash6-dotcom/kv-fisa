@@ -34,15 +34,16 @@ Optional active checks can be added later for payload-based testing.
 
 ## Project structure
 
-```text
-.
-├── README.md
+kv-fisa/
+│
+├── scanner.py
 ├── requirements.txt
 ├── .gitignore
-├── scanner.py
+│
 ├── checks/
 │   ├── __init__.py
 │   └── security_checks.py
+│
 └── tests/
     └── test_basic.py
 ```
